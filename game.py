@@ -1,4 +1,5 @@
 """A number-guessing game."""
 
-# Put your code here
-print("Hello world!")
+user = input("Enter your name: ")
+print("Welcome to the guessing game, {}!".format(user))
+# print("Welcome to the guessing game, "+ user + "!" )
